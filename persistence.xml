@@ -17,9 +17,9 @@
         <properties>
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
 			<property name="hibernate.hbm2ddl.auto" value="create" />
-			<property name="hibernate.connection.url" value="jdbc:mysql://192.168.12.124:3306/drupal" />
-			<property name="hibernate.connection.username" value="drupal" />
-			<property name="hibernate.connection.password" value="dru_PAL" />
+			<property name="hibernate.connection.url" value="jdbc:mysql://192.168.1.1:3306/drupal" />
+			<property name="hibernate.connection.username" value="user" />
+			<property name="hibernate.connection.password" value="password" />
 			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
 		</properties>
     </persistence-unit>
